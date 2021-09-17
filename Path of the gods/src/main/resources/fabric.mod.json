@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "path_of_the_gods",
+  "version": "${version}",
+  "name": "Path_of_the_gods",
+  "description": "Wooble Dooble",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/path_of_the_gods/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "probablycodingstudios.path_of_the_gods.client.Path_of_the_godsClient"
+    ],
+    "main": [
+      "probablycodingstudios.path_of_the_gods.Path_of_the_gods"
+    ]
+  },
+  "mixins": [
+    "path_of_the_gods.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
